@@ -37,7 +37,7 @@ export default function Video() {
               <div class="ratio ratio-16x9">
                 {/* <div className="w-100 limite-video"> */}
                   <video className="w-100" autoPlay controls>
-                    <source src={process.env?.PUBLIC_URL + "/video/video.mp4"} type="video/mp4" />
+                    <source src={process.env?.PUBLIC_URL + "/video/PREFEITURA_VAMU_16x9.mp4"} type="video/mp4" />
                   </video>
                 {/* </div> */}
               </div>
