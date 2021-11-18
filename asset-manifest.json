@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/MaceioTaOn/static/css/main.898073af.chunk.css",
+    "main.js": "/MaceioTaOn/static/js/main.517a6b91.chunk.js",
+    "main.js.map": "/MaceioTaOn/static/js/main.517a6b91.chunk.js.map",
+    "runtime-main.js": "/MaceioTaOn/static/js/runtime-main.bcc68647.js",
+    "runtime-main.js.map": "/MaceioTaOn/static/js/runtime-main.bcc68647.js.map",
+    "static/css/2.67e45e88.chunk.css": "/MaceioTaOn/static/css/2.67e45e88.chunk.css",
+    "static/js/2.f0001eba.chunk.js": "/MaceioTaOn/static/js/2.f0001eba.chunk.js",
+    "static/js/2.f0001eba.chunk.js.map": "/MaceioTaOn/static/js/2.f0001eba.chunk.js.map",
+    "static/js/3.8f5889f0.chunk.js": "/MaceioTaOn/static/js/3.8f5889f0.chunk.js",
+    "static/js/3.8f5889f0.chunk.js.map": "/MaceioTaOn/static/js/3.8f5889f0.chunk.js.map",
+    "index.html": "/MaceioTaOn/index.html",
+    "static/css/2.67e45e88.chunk.css.map": "/MaceioTaOn/static/css/2.67e45e88.chunk.css.map",
+    "static/css/main.898073af.chunk.css.map": "/MaceioTaOn/static/css/main.898073af.chunk.css.map",
+    "static/js/2.f0001eba.chunk.js.LICENSE.txt": "/MaceioTaOn/static/js/2.f0001eba.chunk.js.LICENSE.txt",
+    "static/media/bootstrap-icons.css": "/MaceioTaOn/static/media/bootstrap-icons.ea6f3dfe.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bcc68647.js",
+    "static/css/2.67e45e88.chunk.css",
+    "static/js/2.f0001eba.chunk.js",
+    "static/css/main.898073af.chunk.css",
+    "static/js/main.517a6b91.chunk.js"
+  ]
+}
