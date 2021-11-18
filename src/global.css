@@ -1,52 +1,56 @@
-.fundoAmarelo{
+.fundoAmarelo {
   background-color: #FFF200;
 }
 
 body,
-.fundoAzul{
+.fundoAzul {
   background-color: #11518A;
 }
 
-.textoAzul{
+.textoAzul {
   color: #14467C;
 }
 
 .App,
-.Video .limite-video{
+.limite-video {
   min-width: 100%;
   max-width: 1080px;
   overflow: hidden;
 }
 
-.BoasVindas h1{
+.BoasVindas h1 {
   font-size: 4rem;
   font-weight: 800;
 }
 
-.BoasVindas p{
+.BoasVindas p {
   font-size: 3rem;
   font-weight: 500;
 }
 
-.Inicio .botoes{
+.Inicio .botoes {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.Inicio .botoes img{
+.Inicio .botoes img {
   max-width: 80%;
 }
 
-.Cabecalho .carousel img{
+.Cabecalho .carousel img {
   object-fit: cover;
   object-position: center;
   max-height: 200px;
 }
 
-.Cabecalho h1{
+.Cabecalho h1 {
   font-size: 2rem;
   font-weight: 700;
+}
+
+iframe {
+  overflow: scroll;
 }
 
 ::-webkit-calendar-picker-indicator {

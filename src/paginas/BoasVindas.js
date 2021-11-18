@@ -45,7 +45,7 @@ export default function BoasVindas() {
                 </a>
 
               </div>
-              <Rodape/>
+              {/* <Rodape/> */}
             </div>
           </>)
         }
