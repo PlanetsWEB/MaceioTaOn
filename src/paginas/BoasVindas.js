@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import Carregando from '../componentes/Carregando';
 import Msg from '../componentes/Msg';
-import Rodape from '../componentes/Rodape';
 
 export default function BoasVindas() {
 
@@ -45,7 +44,6 @@ export default function BoasVindas() {
                 </a>
 
               </div>
-              {/* <Rodape/> */}
             </div>
           </>)
         }
