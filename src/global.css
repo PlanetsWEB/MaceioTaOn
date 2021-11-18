@@ -1,0 +1,48 @@
+.fundoAmarelo{
+  background-color: #FFF200;
+}
+
+.fundoAzul{
+  background-color: #11518A;
+}
+
+.textoAzul{
+  color: #14467C;
+}
+
+.App,
+.Video .limite-video{
+  max-width: 1024px;
+  overflow: hidden;
+}
+
+.BoasVindas h1{
+  font-size: 5rem;
+  font-weight: 800;
+}
+
+.BoasVindas p{
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.Inicio .botoes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Inicio .botoes img{
+  max-width: 80%;
+}
+
+.Cabecalho .carousel img{
+  object-fit: cover;
+  object-position: center;
+  max-height: 300px;
+}
+
+.Cabecalho h1{
+  font-size: 3.5rem;
+  font-weight: 700;
+}
