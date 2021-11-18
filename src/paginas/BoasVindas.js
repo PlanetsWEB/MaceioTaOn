@@ -6,6 +6,7 @@ import Rodape from '../componentes/Rodape';
 export default function BoasVindas() {
 
   const [carregando, setCarregando] = useState(true);
+  // eslint-disable-next-line
   const [msg, setMsg] = useState(null);
 
 

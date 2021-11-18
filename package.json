@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "private": false,
   "homepage": "https://planetsweb.github.io/MaceioTaOn/",
+  "author": {
+    "name": "Planets Web",
+    "email": "contato@planetsweb.com.br"
+  },
   "dependencies": {
     "@popperjs/core": "^2.10.2",
     "@testing-library/jest-dom": "^5.14.1",

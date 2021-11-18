@@ -7,6 +7,7 @@ import Rodape from '../componentes/Rodape';
 export default function Paticipa() {
 
   const [carregando, setCarregando] = useState(true);
+  // eslint-disable-next-line
   const [msg, setMsg] = useState(null);
 
 
