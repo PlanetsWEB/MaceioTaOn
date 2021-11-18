@@ -2,6 +2,7 @@
   background-color: #FFF200;
 }
 
+body,
 .fundoAzul{
   background-color: #11518A;
 }
@@ -12,7 +13,8 @@
 
 .App,
 .Video .limite-video{
-  max-width: 1024px;
+  min-width: 100%;
+  max-width: 1080px;
   overflow: hidden;
 }
 

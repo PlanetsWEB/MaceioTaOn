@@ -14,7 +14,7 @@ export default function Cabecalho(props) {
   return (<>
     <header className="Cabecalho">
 
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true" data-bs-interval="5000">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src={process.env?.PUBLIC_URL + "/img/carousel/c-1.jpeg"} class="d-block w-100" alt="Carousel imagem" />

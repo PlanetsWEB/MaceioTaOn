@@ -34,8 +34,10 @@ export default function RaioX() {
             <div className="RaioX">
               <Cabecalho btnVoltarLink="Inicio" titulo="Conheça o diagnóstico da cidade e as soluções propostas pela Prefeitura" />
 
-              <div class="ratio ratio-16x9">
-                <iframe src="https://raiox.maceio.al.gov.br/" title="Site RaioX de Maceió" frameborder="0" allowfullscreen></iframe>
+              <div className="w-100 limite-video">
+                <video className="w-100" autoPlay controls>
+                  <source src={process.env?.PUBLIC_URL + "/video/RaioX.mp4"} type="video/mp4" />
+                </video>
               </div>
 
               <Rodape />

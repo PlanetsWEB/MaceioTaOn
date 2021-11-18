@@ -46,9 +46,9 @@ export default function Inicio() {
                     <img src={process.env?.PUBLIC_URL + "/img/btn/btn-2.png"} alt="Botão!" />
                   </a>
 
-                  <a class="btn btn-default router" href="Paticipa" role="button">
+                  {/* <a class="btn btn-default router" href="Paticipa" role="button">
                     <img src={process.env?.PUBLIC_URL + "/img/btn/btn-3.png"} alt="Botão!" />
-                  </a>
+                  </a> */}
 
                   <a class="btn btn-default router" href="Video" role="button">
                     <img src={process.env?.PUBLIC_URL + "/img/btn/btn-4.png"} alt="Botão!" />

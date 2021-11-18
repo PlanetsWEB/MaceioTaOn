@@ -35,7 +35,7 @@ export default function Paticipa() {
               <Cabecalho btnVoltarLink="Inicio" titulo="Escolhas as prioridades para Maceió" />
 
               <div class="ratio ratio-16x9">
-                <iframe src="http://www.participa.maceio.al.gov.br/participa-maceio/principal.faces" title="Site Maceió.io" frameborder="0" allowfullscreen></iframe>
+                <iframe src="http://www.participa.maceio.al.gov.br/participa-maceio/principal.faces" title="Site Maceió.io" frameborder="0" sandbox allowfullscreen></iframe>
               </div>
 
               <Rodape />

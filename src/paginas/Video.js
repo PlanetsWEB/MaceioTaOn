@@ -38,7 +38,7 @@ export default function Video() {
                 <video className="w-100" autoPlay controls>
                   <source src={process.env?.PUBLIC_URL + "/video/video.mp4"} type="video/mp4" />
                 </video>
-                </div>
+              </div>
 
               <Rodape />
             </div>
