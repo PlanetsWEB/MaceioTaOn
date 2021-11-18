@@ -37,7 +37,7 @@ export default function BoasVindas() {
               </div>
 
               <div className="fundoAzul p-5">
-                <img src={process.env?.PUBLIC_URL + "/img/logo-prefeitura-fundobranco.png"} alt="Logo" style={{ maxHeight: "18rem", marginTop: "-11rem", position: "relative", zIndex: "1" }} />
+                <img src={process.env?.PUBLIC_URL + "/img/logo-prefeitura-fundobranco.png"} alt="Logo" style={{ maxHeight: "16rem", marginTop: "-11rem", position: "relative", zIndex: "1" }} />
                 <p class="text-white mb-5">Aqui você vai conhecer ações que apontam para o futuro da capital de todos os alagoanos. Vem com a gente!</p>
 
                 <a class="btn btn-default router" href="Inicio" role="button">

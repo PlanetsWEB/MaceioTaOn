@@ -46,7 +46,7 @@ export default function Cabecalho(props) {
           </a>
 
           <div class="text-center">
-            <img src={process.env?.PUBLIC_URL + "/img/logo-prefeitura-fundobranco.png"} alt="Logo" style={{ maxWidth: "18rem", marginTop: "-11rem", position: "relative", zIndex: "1" }} />
+            <img src={process.env?.PUBLIC_URL + "/img/logo-prefeitura-fundobranco.png"} alt="Logo" style={{ maxWidth: "16rem", marginTop: "-11rem", position: "relative", zIndex: "1" }} />
           </div>
 
           {

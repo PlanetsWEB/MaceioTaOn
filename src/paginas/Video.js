@@ -34,10 +34,12 @@ export default function Video() {
             <div className="Video fundoAzul">
               <Cabecalho btnVoltarLink="Inicio" titulo="Saiba como a inovação está facilitando a vida do maceioense" carouselActive="4" />
 
-              <div className="w-100 limite-video">
-                <video className="w-100" autoPlay controls>
-                  <source src={process.env?.PUBLIC_URL + "/video/video.mp4"} type="video/mp4" />
-                </video>
+              <div class="ratio ratio-16x9">
+                {/* <div className="w-100 limite-video"> */}
+                  <video className="w-100" autoPlay controls>
+                    <source src={process.env?.PUBLIC_URL + "/video/video.mp4"} type="video/mp4" />
+                  </video>
+                {/* </div> */}
               </div>
 
               <Rodape />
