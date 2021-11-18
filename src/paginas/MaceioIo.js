@@ -32,7 +32,7 @@ export default function MaceioIo() {
             <Msg msg={msg}></Msg>
           </>) : (<>
             <div className="MaceioIo fundoAzul">
-              <Cabecalho btnVoltarLink="Inicio" titulo="Acesse os dados da Prefeitura" />
+              <Cabecalho btnVoltarLink="Inicio" titulo="Acesse os dados da Prefeitura" carouselActive="3" />
 
               <div class="ratio ratio-16x9">
                 <iframe src="https://maceio.io/" title="Site Maceió.io" frameborder="0" allowfullscreen></iframe>

@@ -14,20 +14,19 @@ export default function Cabecalho(props) {
   return (<>
     <header className="Cabecalho">
 
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true" data-bs-interval="5000">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true" data-bs-interval="3000">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={process.env?.PUBLIC_URL + "/img/carousel/c-1.jpeg"} class="d-block w-100" alt="Carousel imagem" />
-          </div>
-          <div class="carousel-item">
-            <img src={process.env?.PUBLIC_URL + "/img/carousel/c-2.jpeg"} class="d-block w-100" alt="Carousel imagem" />
-          </div>
-          <div class="carousel-item">
-            <img src={process.env?.PUBLIC_URL + "/img/carousel/c-3.jpeg"} class="d-block w-100" alt="Carousel imagem" />
-          </div>
-          <div class="carousel-item">
-            <img src={process.env?.PUBLIC_URL + "/img/carousel/c-4.jpeg"} class="d-block w-100" alt="Carousel imagem" />
-          </div>
+          {Array.apply(0, Array(5)).map((x, index) => (<>
+            {
+              props?.carouselActive === String(index+1) ? (
+                <div class={"carousel-item active"}>
+                  <img src={process.env?.PUBLIC_URL + "/img/carousel/c-"+(index+1)+".jpeg"} class="d-block w-100" alt="Carousel imagem" />
+                </div>) : (
+                <div class={"carousel-item"}>
+                  <img src={process.env?.PUBLIC_URL + "/img/carousel/c-"+(index+1)+".jpeg"} class="d-block w-100" alt="Carousel imagem" />
+                </div>)
+            }
+          </>))}
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>

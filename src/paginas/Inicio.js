@@ -32,7 +32,7 @@ export default function Inicio() {
             <Msg msg={msg}></Msg>
           </>) : (<>
             <div className="Inicio">
-              <Cabecalho btnVoltarLink="BoasVindas" titulo="O que você quer?" />
+              <Cabecalho btnVoltarLink="BoasVindas" titulo="O que você quer?" carouselActive="1" />
 
               <div className="fundoAzul">
 

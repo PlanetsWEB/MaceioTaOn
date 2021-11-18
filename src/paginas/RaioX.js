@@ -32,7 +32,7 @@ export default function RaioX() {
             <Msg msg={msg}></Msg>
           </>) : (<>
             <div className="RaioX">
-              <Cabecalho btnVoltarLink="Inicio" titulo="Conheça o diagnóstico da cidade e as soluções propostas pela Prefeitura" />
+              <Cabecalho btnVoltarLink="Inicio" titulo="Conheça o diagnóstico da cidade e as soluções propostas pela Prefeitura" carouselActive="2" />
 
               <div className="w-100 limite-video">
                 <video className="w-100" autoPlay controls>

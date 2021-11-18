@@ -32,7 +32,7 @@ export default function Video() {
             <Msg msg={msg}></Msg>
           </>) : (<>
             <div className="Video fundoAzul">
-              <Cabecalho btnVoltarLink="Inicio" titulo="Saiba como a inovação está facilitando a vida do maceioense" />
+              <Cabecalho btnVoltarLink="Inicio" titulo="Saiba como a inovação está facilitando a vida do maceioense" carouselActive="4" />
 
               <div className="w-100 limite-video">
                 <video className="w-100" autoPlay controls>
