@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MaceioTaOn/static/css/main.980700ae.chunk.css",
-    "main.js": "/MaceioTaOn/static/js/main.f41e91d1.chunk.js",
-    "main.js.map": "/MaceioTaOn/static/js/main.f41e91d1.chunk.js.map",
+    "main.js": "/MaceioTaOn/static/js/main.4f44e90b.chunk.js",
+    "main.js.map": "/MaceioTaOn/static/js/main.4f44e90b.chunk.js.map",
     "runtime-main.js": "/MaceioTaOn/static/js/runtime-main.bcc68647.js",
     "runtime-main.js.map": "/MaceioTaOn/static/js/runtime-main.bcc68647.js.map",
     "static/css/2.67e45e88.chunk.css": "/MaceioTaOn/static/css/2.67e45e88.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.67e45e88.chunk.css",
     "static/js/2.f0001eba.chunk.js",
     "static/css/main.980700ae.chunk.css",
-    "static/js/main.f41e91d1.chunk.js"
+    "static/js/main.4f44e90b.chunk.js"
   ]
 }
